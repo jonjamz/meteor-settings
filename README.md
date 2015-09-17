@@ -3,7 +3,13 @@
 A minimalistic API that formalizes the way settings are implemented across third-party libraries
 and custom modules in an application.
 
-### Examples
+### Install
+
+Note: this package is currently in a very early, untested state. 
+
+`$ meteor add jamz:settings`
+
+### How to Use
 
 Create a new instance of Settings class available to the whole application:
 ```js
