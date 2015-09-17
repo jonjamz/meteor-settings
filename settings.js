@@ -54,7 +54,7 @@ function Settings() {
  * @param name {String} The name of the group to register with Settings instance.
  * @return The instance of SettingsGroup assigned to this group.
  */
-Settings.prototype.createGroup(name) {
+Settings.prototype.createGroup = function (name) {
   this.settings[name] = new SettingsGroup;
   return this.settings[name];
 }
