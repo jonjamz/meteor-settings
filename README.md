@@ -3,8 +3,8 @@
 A minimalistic API that formalizes the way settings are implemented across third-party libraries
 and custom modules in an application.
 
-One idea here is that user settings should be able to be persisted and not need to be coupled to 
-a specific library version.
+One idea here is that settings should be able to be persisted in a common format and not necessarily 
+coupled to a specific library or library version.
 
 ### Install
 
